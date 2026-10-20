@@ -1,0 +1,4 @@
+import Link from "next/link";
+export default function LoginPage() {
+ return <main className="wrap"><header className="nav"><Link href="/" className="logo">lumora<span>✦</span></Link><Link href="/" className="btn secondary">← Home</Link></header><section className="section" style={{maxWidth:600,margin:"auto"}}><span className="eyebrow">YOUR SPACE</span><h2 style={{marginTop:18}}>Welcome to <span className="gradient">Lumora.</span></h2><p className="sub">Account sign-in is not enabled in this starter. Authentication must be connected before private conversations or account data can be stored.</p><div className="card" style={{marginTop:24}}><p>For the preview, you can explore the character studio without creating an account.</p><Link className="btn" href="/create">Open character studio →</Link></div></section></main>;
+}
