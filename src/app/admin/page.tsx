@@ -1,0 +1,4 @@
+import Link from "next/link";
+export default function AdminPage() {
+ return <main className="wrap"><header className="nav"><Link href="/" className="logo">lumora<span>✦</span></Link><Link href="/" className="btn secondary">← Home</Link></header><section className="section"><span className="eyebrow">INTERNAL PREVIEW</span><h2 style={{marginTop:18}}>Admin dashboard</h2><p className="sub">This is a placeholder only. Do not expose operational data or enable administration until role-based access control, audit logging, and server-side authorization are implemented.</p><div className="cards"><article className="card"><h3>Users</h3><p>Not connected</p></article><article className="card"><h3>Subscriptions</h3><p>Not connected</p></article><article className="card"><h3>Moderation</h3><p>Not connected</p></article></div></section></main>;
+}
