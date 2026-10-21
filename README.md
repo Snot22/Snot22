@@ -3,6 +3,7 @@
 An original AI companion website starter with a dark, luxury-inspired interface and a character studio for realistic and anime concepts.
 
 ## Preview features
+- AI character image generator at `/images` (requires OpenAI API access and paid API credits)
 - Responsive landing page and illustrative pricing section
 - Interactive character studio: name, style, personality, and appearance brief
 - Copyable character brief
